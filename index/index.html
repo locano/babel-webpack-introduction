@@ -18,19 +18,7 @@
     <title>WebPack</title>
   </head>
   <body class="index">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">WebPack</a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="page1.html">Page1</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div id="nav-index"></div>
     <div class="row p-3">
       <div class="col-4"></div>
       <div class="col-4 animate__animated animate__heartBeat">
@@ -44,29 +32,28 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
+                  id="img1"
                   class="d-block w-100"
-                  src="./images/what.gif"
+                  src=""
                   alt="Second slide"
                 />
               </div>
               <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="./images/what1.gif"
-                  alt="Third slide"
-                />
+                <img id="img2" class="d-block w-100" src="" alt="Third slide" />
               </div>
               <div class="carousel-item">
                 <img
+                  id="img3"
                   class="d-block w-100"
-                  src="./images/what2.gif"
+                  src=""
                   alt="Fourth slide"
                 />
               </div>
               <div class="carousel-item">
                 <img
+                  id="img4"
                   class="d-block w-100"
-                  src="./images/what3.gif"
+                  src=""
                   alt="Fourth slide"
                 />
               </div>
@@ -100,6 +87,9 @@
       </div>
       <div class="col-4"></div>
     </div>
+    <div id="card-extra"></div>
+    <script src="../util/nav.js"></script>
+    <script src="../page/cad.js"></script>
     <script src="index.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
