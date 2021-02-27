@@ -1,4 +1,4 @@
-function createNav() {
+export const createNav = ()=> {
   const nav = document.createElement("nav");
   nav.classList = "navbar navbar-expand-lg navbar-dark bg-dark";
 

@@ -1,4 +1,4 @@
-function createCard(){
+export const createCard = ()=> {
     const card = document.createElement('div');
     card.classList = "card animate__animated animate__bounceInLeft";
     card.style.width = '350px';

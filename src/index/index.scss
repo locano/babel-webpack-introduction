@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~animate.css/source/animate.css";
+
+$mg-top: "100px";
+
+.index {
+  background-color: black;
+  color: white;
+}
+#container-index {
+  margin-top: $mg-top;
+}
