@@ -5,6 +5,7 @@ import what3 from '../images/what3.gif';
 import {createCard} from "../util/cad";
 import {createNav} from "../util/nav";
 import './index.scss'
+import '../../node_modules/bootstrap/dist/js/bootstrap.js'
 
 // adding navbar
 const nav = createNav();

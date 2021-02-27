@@ -1,3 +1,4 @@
+import logo from '../images/webpack-logo.png';
 export const createCard = ()=> {
     const card = document.createElement('div');
     card.classList = "card animate__animated animate__bounceInLeft";
@@ -6,7 +7,7 @@ export const createCard = ()=> {
     
     const img = document.createElement('img');
     img.classList = "card-img-top";
-    img.src = '../images/webpack-logo.png';
+    img.src = logo;
     img.alt = "Card image";
     img.width="350";
     

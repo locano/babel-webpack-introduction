@@ -27,7 +27,7 @@ export const createNav = ()=> {
   li2.classList = "nav-item ";
   const a2 = document.createElement("a");
   a2.classList = "nav-link";
-  a2.page1 = "page1.html";
+  a2.href = "page1.html";
   a2.innerText = "Page1";
   li2.appendChild(a2);
 
