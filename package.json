@@ -5,7 +5,8 @@
   "main": "start.js",
   "scripts": {
     "build": "webpack",
-    "start": "babel src --out-dir lib"
+    "start": "babel src -d lib",
+    "babel-arrow": "babel src -d lib --plugins=@babel/plugin-transform-arrow-functions"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@babel/cli": "^7.13.0",
     "@babel/core": "^7.13.8",
+    "@babel/plugin-transform-arrow-functions": "^7.13.0",
     "css-loader": "^5.1.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.2.0",
@@ -31,7 +33,6 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "@babel/plugin-transform-arrow-functions": "^7.13.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
