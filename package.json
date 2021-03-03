@@ -4,7 +4,8 @@
   "description": "webpack-loaders",
   "main": "start.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
