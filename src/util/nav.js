@@ -1,4 +1,6 @@
 export const createNav = ()=> {
+  const saludo = "    hola amigo".trimStart();
+  console.log(saludo);
   const nav = document.createElement("nav");
   nav.classList = "navbar navbar-expand-lg navbar-dark bg-dark";
 
